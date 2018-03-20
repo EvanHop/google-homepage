@@ -1,18 +1,135 @@
 #search-bar {
-	border: 1px solid #c0c0c0;
+	border: medium none;
 	margin: 0px;
 	padding: 0px;
-	width: 30%;
+	max-width: 700px;
+    min-width: 550px;
 	height: 44px;
 	background: transparent;
-	box-shadow: currentColor;
-
+    background-color: white;
+    box-shadow: 0px 1px 5px 0px grey;
+    outline: medium none currentcolor;
+    margin-bottom: 20px
 }
 
 .button {
-	display: inline-block;
+	display: block;
+    width: auto;
+    text-align: center;
 }
 
 .logo {
 	position: center;
+    margin: 20px;
+    height:auto;
+    width: 270px;
+}
+
+body {
+    display: block;
+    width: auto;
+    align-content: center;
+}
+.navigation-bar {
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:auto;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    padding: 0;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+}
+
+main {
+    display: block;
+    width:100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 150px;
+    margin: 10px 0px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#sign-in {
+    border: solid 1px dodgerblue;
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#sign-in a {
+    color: white;
+    font-weight: bold;
+}
+
+.search-button {
+    border: solid 1px #f2f2f2;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    color: #757575;
+    text-align: center;
+    font-weight: bold;
+    height: 36px;
+    line-height: 27px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    min-width: 54px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+form {
+    width: ;
+    display: block;
+    align-content: center;
+}
+
+footer {
+    margin: 0px 0px;
+    margin-top: 400px;
+    padding: 11px 0px 11px 0px; 
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.left-foot {
+    float: left;
+}
+
+.right-foot {
+    float: right;
 }
